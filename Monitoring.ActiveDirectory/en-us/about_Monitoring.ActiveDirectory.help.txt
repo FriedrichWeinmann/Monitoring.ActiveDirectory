@@ -1,0 +1,11 @@
+﻿TOPIC
+	about_Monitoring.ActiveDirectory
+	
+SHORT DESCRIPTION
+	Explains how to use the Monitoring.ActiveDirectory powershell module
+	
+LONG DESCRIPTION
+	<Insert Content here>
+
+KEYWORDS
+	Monitoring.ActiveDirectory
