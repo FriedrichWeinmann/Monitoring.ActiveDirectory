@@ -52,12 +52,12 @@
 }
 
 $paramRegisterMonCheck = @{
-	Name  = 'domain_SiteIslandCount'
-	Tag   = 'domain'
-	Check = $check
-	Description = 'Scans whether a site has isolated itself by not replicating to other sites with domain controllers'
-	Module	    = 'ActiveDirectory'
-	RecommendedLimit = 0
+	Name					 = 'domain_SiteIslandCount'
+	Tag					     = 'domain'
+	Check				     = $check
+	Description			     = 'Scans whether a site has isolated itself by not replicating to other sites with domain controllers'
+	Module				     = 'ActiveDirectory'
+	RecommendedLimit		 = 0
 	RecommendedLimitOperator = 'Equal'
 }
 
