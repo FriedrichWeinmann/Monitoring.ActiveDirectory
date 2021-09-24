@@ -6,7 +6,7 @@
 	)
 	
 	Invoke-Command -Session $Connections.WinRM_PS -ScriptBlock {
-		(Get-Service -Name Netlogon).Status -eq 'Running'
+		(Get-Service -Name Netlogon).Status
 	}
 }
 
@@ -16,7 +16,7 @@ $paramRegisterMonCheck = @{
 	Check				     = $check
 	Description			     = 'Checks whether the Netlogon service is running'
 	Module				     = 'ActiveDirectory'
-	RecommendedLimit		 = $true
+	RecommendedLimit		 = 'Running'
 	RecommendedLimitOperator = 'Equal'
 }
 Register-MonCheck @paramRegisterMonCheck

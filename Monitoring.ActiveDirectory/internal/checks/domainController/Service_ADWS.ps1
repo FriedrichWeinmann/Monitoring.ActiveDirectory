@@ -19,5 +19,4 @@ $paramRegisterMonCheck = @{
 	RecommendedLimit		 = $true
 	RecommendedLimitOperator = 'Equal'
 }
-
 Register-MonCheck @paramRegisterMonCheck
